@@ -2,9 +2,9 @@ console.log("Bot file started!");
 const mineflayer = require('mineflayer');
 
 const config = {
-  host: 'Clay012.aternos.me',
-  port: 38322,
-  username: 'Zzzz....',
+  host: 'sadsmps3.joinmc.world',
+  port: 36019,
+  username: 'SadSMP-S3.Bot',
   version: '1.21.11'
 };
 
@@ -144,11 +144,11 @@ bot.on('messagestr', (message) => {
   }
 
   else if (msg.includes('bot_discord')) {
-    bot.chat('💬 Join our Discord: discord.gg/vH9QFKvy');
+    bot.chat('💬 Join our Discord: https://discord.gg/EKxZDrNUJ');
   }
 
   else if (msg.includes('bot_website')) {
-    bot.chat('🌐 Website coming soon!');
+    bot.chat('https://sady-playz-website.sop479717.workers.dev/');
   }
 
   // ==========================
